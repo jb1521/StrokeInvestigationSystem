@@ -7,7 +7,6 @@ public class Doctor extends Person{
         super("Doctor");
     }
 
-
     //unfinished Doctor view, set as void for now
     public void getDoctorView(Patient patient) {
         URL photo = patient.getPhoto();
@@ -17,6 +16,6 @@ public class Doctor extends Person{
         int systolic = patient.getBPData().getSystolicPressure();
         int diastolic = patient.getBPData().getDiastolicPressure();
 
-
+        //set up JPanel for doctor view here, formatted photos and text
     }
 }

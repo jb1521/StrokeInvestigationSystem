@@ -7,9 +7,8 @@ public class Administrator extends Person{
         super("Administrator");
     }
 
-
     public void getAdminView(Patient patient){
-        //getting relevent data and outputting to console
+        //getting relevant data and outputting to console
         String patientName = patient.getName();
         int tesla = patient.getMRIData().getFieldStrength();
         String mriDate = patient.getMRIData().getDate();

@@ -43,6 +43,7 @@ public class Main {
         Doctor doctor1 = new Doctor();
         Administrator admin1 = new Administrator();
 
+
         //administrator view of patient examinations
         admin1.getAdminView(patient1);
         admin1.getAdminView(patient2);

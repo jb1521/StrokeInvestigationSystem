@@ -34,6 +34,7 @@ public class Patient extends Person{
         examinations.add(exam);
     }
 
+    //get data from scans, later would have made it able to select desired data if patient has more than one object
     public MRIScan getMRIData() {
         for (Examination exam : examinations) {
             if (exam instanceof MRIScan) {
