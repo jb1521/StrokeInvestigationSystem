@@ -13,4 +13,17 @@ public class BPMeasurement extends Examination{
         this.diastolicPressure = diastolicPressure;
         this.duration = duration;
     }
+
+    public String getDate(){
+        return date.toString();
+    }
+    public int getSystolicPressure(){
+        return systolicPressure;
+    }
+    public int getDiastolicPressure(){
+        return diastolicPressure;
+    }
+    public String getDuration(){
+        return duration;
+    }
 }
